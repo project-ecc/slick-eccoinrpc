@@ -36,7 +36,7 @@ except:
 from .exc import RpcException
 
 DEFAULT_HTTP_TIMEOUT = 30
-DEFAULT_RPC_PORT = 8332
+DEFAULT_RPC_PORT = 19119 # Default RPC port for eccoin
 
 
 class Proxy(object):
